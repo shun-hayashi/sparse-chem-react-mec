@@ -1,0 +1,2 @@
+,filename,status,lam,num_eq,loss,MRSE_train,MRSE_test
+0,0000,init,0.0,8,0.011237933800675204,0.011237933800675204,0.0453212323861269

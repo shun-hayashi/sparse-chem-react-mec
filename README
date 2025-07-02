@@ -1,0 +1,25 @@
+# Supporting data files for "Data-driven discovery of chemical reaction mechanisms from limited concentration profiles"
+
+## Requirements
+- python: 3.11.6
+- numpy: 1.26.4
+- scipy: 1.11.1
+- pandas: 2.0.3
+- numba: 0.58.1
+- numbalsoda: 0.3.4
+- pycma: 3.2.2
+
+## Folder Structure
+.
+├── example.ipynb # Jupyter notebook file demonstrating an example of optimizing kinetic models
+├── example # calculation results from example.ipynb
+├── result # kinetic models developed in this study
+├── src
+│   ├── chemkinetics.py # main module for optimizing kinetic models
+│   ├── load_data.py # load and normalize the experimental data
+│   ├── loss.py # loss function
+│   ├── lr.py # enumerate possible elementary steps
+│   ├── report.py 
+│   └── tools.py
+└─── time_course # experimental data (absorbance of reaction mixtures with 20 initial conditions)
+
