@@ -1,10 +1,10 @@
-# Supporting data files for "Sparse identification of chemical reaction mechanisms from limited concentration profiles"
+## Supporting data files for "Sparse identification of chemical reaction mechanisms from limited concentration profiles"
 [![DOI](https://img.shields.io/badge/DOI-10.1039%2FD5DD00293A-blue)](https://doi.org/10.1039/D5DD00293A)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15259062.svg)](https://doi.org/10.5281/zenodo.15259062)
 <br>cite as:
 Shun Hayashi, Digital Discovery, 2025, Accepted Manuscript, https://doi.org/10.1039/D5DD00293A
 
-## Requirements
+### Requirements
 - python: 3.11.6
 - numpy: 1.26.4
 - scipy: 1.11.1
@@ -13,7 +13,7 @@ Shun Hayashi, Digital Discovery, 2025, Accepted Manuscript, https://doi.org/10.1
 - numbalsoda: 0.3.4
 - pycma: 3.2.2
 
-## Folder Structure
+### Folder Structure
 ```
 .
 ├── example.ipynb # Jupyter notebook file demonstrating an example of optimizing kinetic models
